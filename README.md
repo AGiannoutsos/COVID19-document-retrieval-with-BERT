@@ -24,7 +24,7 @@ embedding vector and we search with cosine similarity through the dataset the mo
 Finaly we can evaluate our results.
 
 ## Code and report
-Code, comments and report exist in the notebook which you can open in Colab from here 
+Code, comments and report exist in the notebook which you can open in Colab from here [![Click here to open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AGiannoutsos/COVID19-document-retrieval-with-BERT/blob/main/covid_document_retrieval.ipynb)
 
 
 
