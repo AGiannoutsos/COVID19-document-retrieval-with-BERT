@@ -4,7 +4,7 @@ We will ve using CORD-19 ![CORD-19 dataset](https://ai2-semanticscholar-cord-19.
 
 ## About the project
 
-In this project we will use and evaluate 4 different methods for creating contexual sentence embeddings. These embeddings then will be used to find the most semantically meaningfull document that relates to our question. 
+In this project, we will use and evaluate 4 different methods for creating contextual sentence embeddings. These embeddings then will be used to find the most semantically meaningful document that relates to our question. 
 
 The 4 methods are:
 
@@ -16,12 +16,13 @@ The 4 methods are:
 
 ## About the implementation
 
-Fisrtly the data is ectracted from the dataset and a Pytorch dataset class is used to access the corpus. Then each model is defiend seperalty. The corpus is 
-feed in every model and embeddings for every sentence in the documents are generated and stored and ziped in the cloud.
+Firstly the data is extracted from the dataset and a Pytorch dataset class is used to access the corpus. Then each model is defined separately. The corpus then is batched in sentences and batches of sentences are
+feed in every model. From the output of the models' embeddings are generated for every sentence in the documents and they are stored and zipped in the cloud.
 After the transformation of the corpus into vectors of words, follows the question answering part. 
-We download the and unzip the embeddings of eery document per each embedding model method. Afterwards, we ask for a question. We transform the question into an 
+We download and unzip the embeddings of all the documents per each embedding model method. Afterward, we ask for a question. We transform the question into an 
 embedding vector and we search with cosine similarity through the dataset the most similar sentence embedding to our question for each model method.
-Finaly we can evaluate our results.
+Finally, we can evaluate our results.
+
 
 ## Code and report
 Code, comments and report exist in the notebook which you can open in Colab from here [![Click here to open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AGiannoutsos/COVID19-document-retrieval-with-BERT/blob/main/covid_document_retrieval.ipynb)
