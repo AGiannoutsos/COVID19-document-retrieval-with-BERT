@@ -1,6 +1,6 @@
 # COVID19-document-retrieval-with-BERT
 This project is about developing a document retrieval system to return titles and the context of scientific papers containing the answer to a given user question.
-We will ve using CORD-19 ![CORD-19 dataset](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) for the dataset which is the biggest corpus of academic papers about COVID-19 and related coronavirus research.
+We will ve using CORD-19 [CORD-19 dataset](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) for the dataset which is the biggest corpus of academic papers about COVID-19 and related coronavirus research.
 
 ## About the project
 
